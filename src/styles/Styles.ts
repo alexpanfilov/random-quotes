@@ -1,11 +1,14 @@
 import styled from "styled-components";
 
 export const Wrapper = styled.div`
-  width: 50%;
+  width: 60%;
   box-shadow: 2px 3px 5px rgba(0, 0, 0, 0.24);
   margin: 10vh auto;
   border-radius: 3px;
   background-color: #fff;
+  @media (max-width: 700px) {
+    width: 85%;
+  }
 `
 export const Title = styled.h1`
   text-align: center;
